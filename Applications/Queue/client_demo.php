@@ -12,7 +12,7 @@
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
  */
 // 连接队列服务，ip地址为队列服务端ip，这里假设是本机部署ip为127.0.0.1
-$client = stream_socket_client("tcp://127.0.0.1:1236", $err_no, $err_msg, 5);
+$client = stream_socket_client("tcp://127.0.0.1:1231", $err_no, $err_msg, 5);
 if(!$client)
 {
     exit($err_msg);
